@@ -1,0 +1,55 @@
+.flax{
+    display: flex;
+}
+.items-center{
+    align-items:left;
+    margin-right: 10px;
+}
+.spac{
+    justify-content: space-between;
+   
+    
+}
+.btn{
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 800;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+}
+.btn1{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+}
+   
+.btn-praimary{
+    background-color: #3DCFD3;
+    color:black;
+
+
+}
+.btn-praimary:hover{
+    background-color: transparent;
+    border-color:var(--primary) ;
+    color: var(--primary);
+}
+.btn-secondary{
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+
+}
+.btn-secondary:hover{
+    background: var(--primary);
+    color: var(--dark);
+}
+.flax-1{
+    flex:2;
+}
